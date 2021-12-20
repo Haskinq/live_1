@@ -187,6 +187,7 @@ body {
 
 .content-top-general {
 	display: flex;
+	position: relative;
 }
 
 .content-top-img__girl {
@@ -195,7 +196,8 @@ body {
 
 .content-top-img__ellipce3big {
 	position: absolute;
-	margin: 90px 0 0 650px;
+	top: 10%;
+	left: 57%;
 	z-index: -1;
 }
 
@@ -253,6 +255,7 @@ body {
 	background-color: #fbfbfb;
 	padding: 1px;
 	z-index: -1;
+	position: relative;
 }
 
 .content-middle h2 {
@@ -281,7 +284,8 @@ body {
 
 .content-middle__vector1 {
 	position: absolute;
-	margin: 0 0 50px 90px;
+	top: 45%;
+	left: 8%;
 }
 
 .content-middle-center {
@@ -404,6 +408,11 @@ body {
 	margin: 0 0 36px 0;
 }
 
+.content-middle-icon__3,
+.content-middle-icon__4 {
+	position: relative;
+}
+
 .content-middle-icon__vector1 {
 	position: absolute;
 	padding: 35px 750px 0 0;
@@ -418,7 +427,6 @@ body {
 	position: absolute;
 	padding: 32px 180px 0 0;
 }
-
 .content-middle-icon__vector4 {
 	position: absolute;
 	padding: 25px 0 0 205px;
@@ -426,7 +434,8 @@ body {
 
 .content-middle-icon__vector5 {
 	position: absolute;
-	padding: 0 0 0 240px;
+	top: -4%;
+	left: 45.555%;
 }
 
 .content-middle-icon__vector6 {
@@ -436,13 +445,8 @@ body {
 
 .content-middle-icon__vector7 {
 	position: absolute;
-	margin: 0 0 50px 780px;
-	z-index: -2;
-	border: 1px solid;
-}
-
-.content-middle-icon__vector7border {
-	z-index: 2;
+	top: -5%;
+	left: 52%;
 }
 
 .content-middle-center-link__button {
